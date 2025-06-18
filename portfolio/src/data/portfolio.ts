@@ -66,6 +66,14 @@ export const projects = [
     ]
   },
   {
+    title: 'Yash Bikes',
+    description: 'A bike renting website showcasing various rides available in your locality.',
+    technologies: ['React.js', 'TypeScript', 'Tailwind CSS','Motion'],
+    links: [
+      { label: 'View', href: 'https://yash-bikes.vercel.app/' }
+    ]
+  },
+  {
     title: 'CinePlanet',
     description: 'Movie booking platform that ensures smooth and hassle free ticket reservations. It efficiently handles multiple users booking tickets for the same show without conflicts.',
     technologies: ['Java','SpringBoot','Hibernate', 'TypeScript', 'Next.js','Express.js','Prisma ORM'],
@@ -74,12 +82,4 @@ export const projects = [
       { label: 'View', href: 'https://cine-planet.vercel.app/' }
     ]
   },
-  {
-    title: 'Portfolio Website',
-    description: 'A minimalist portfolio website showcasing projects and skills with a clean, responsive design.',
-    technologies: ['React.js', 'TypeScript', 'Tailwind CSS','Motion'],
-    links: [
-      { label: 'View', href: '#' }
-    ]
-  }
 ];
