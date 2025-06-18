@@ -18,14 +18,14 @@ const Hero: React.FC = () => {
   
   return (
     <motion.section 
-      className="max-w-2xl mx-auto text-left"
+      className=" mx-auto text-left"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}
     >
       <motion.h1 
         className={`text-3xl md:text-4xl font-medium mb-6 ${
-          theme === 'dark' ? 'text-white' : 'text-gray-900'
+          theme === 'dark' ? 'tracking-tight text-white' : 'text-gray-900'
         }`}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
       >
         {personalInfo.title}. {personalInfo.description}{' '}
         <span className={`font-medium ${
-          theme === 'dark' ? 'text-white' : 'text-gray-900'
+          theme === 'dark' ? 'tracking-tight text-white' : 'text-gray-900'
         }`}>{personalInfo.projects[0]}</span>.
       </motion.p>
 
